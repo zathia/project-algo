@@ -1,0 +1,31 @@
+.card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.course-card {
+  text-align: center;
+}
+
+.course-card i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.course-card h3 {
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.course-card p {
+  color: var(--text-light);
+}
